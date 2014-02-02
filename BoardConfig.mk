@@ -53,9 +53,6 @@ TARGET_SCREEN_DENSITY := 440
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/configs/config.fs
 
-# FM
-BOARD_HAVE_QCOM_FM := true
-
 # GNSS
 BOARD_VENDOR_QCOM_GPS_LOC_API_HARDWARE := default
 
