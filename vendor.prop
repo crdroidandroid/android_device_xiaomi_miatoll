@@ -171,6 +171,9 @@ vendor.hw.fm.init=0
 # FRP
 ro.frp.pst=/dev/block/bootdevice/by-name/frp
 
+# Incremental FS
+ro.incremental.enable=true
+
 # Graphics
 debug.sf.disable_client_composition_cache=1
 persist.sys.sf.color_mode=9
