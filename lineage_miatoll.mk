@@ -24,6 +24,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_SUPPORTS_QUICK_TAP := true
 
 PRODUCT_NAME := lineage_miatoll
 PRODUCT_DEVICE := miatoll
