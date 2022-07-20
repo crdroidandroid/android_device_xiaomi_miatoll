@@ -4,6 +4,7 @@ audio.offload.min.duration.secs=30
 # Camera
 ro.miui.notch=1
 vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera
+persist.vendor.camera.privapp.list=com.android.camera
 
 # Charger
 ro.charger.enable_suspend=true
