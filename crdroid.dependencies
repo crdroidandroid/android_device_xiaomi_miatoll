@@ -1,0 +1,15 @@
+[
+  {
+    "repository": "tequilaOS/platform_hardware_xiaomi",
+    "target_path": "hardware/xiaomi",
+    "branch": "tobacco"
+  },
+  {
+    "repository": "crdroidandroid/android_kernel_xiaomi_sm6250",
+    "target_path": "kernel/xiaomi/miatoll"
+  },
+  {
+    "repository": "crdroidandroid/android_vendor_xiaomi_miatoll",
+    "target_path": "vendor/xiaomi/miatoll"
+  }
+]

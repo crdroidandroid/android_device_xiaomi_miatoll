@@ -107,7 +107,6 @@ PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
 
 # Display
 PRODUCT_PACKAGES += \
-    android.hardware.graphics.composer@2.4-impl \
     android.hardware.graphics.composer@2.4-service
 
 PRODUCT_PACKAGES += \
@@ -216,6 +215,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.light-service.xiaomi
 
+# LiveDisplay
+PRODUCT_PACKAGES += \
+    vendor.lineage.livedisplay@2.0-service-sdm
+
 # Media
 PRODUCT_PACKAGES += \
     libavservices_minijail \
@@ -289,6 +292,10 @@ PRODUCT_PACKAGES += \
     SM6250SystemUI \
     TelephonyResCommon \
     WifiOverlay
+
+PRODUCT_PACKAGES += \
+    SM6250LineageDialer \
+    SM6250LineageSDK
 
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
