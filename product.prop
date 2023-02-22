@@ -5,10 +5,5 @@ ro.com.google.lens.oem_camera_package=com.android.camera
 # Display
 debug.sdm.support_writeback=0
 
-# IORap
-ro.iorapd.enable=true
-iorapd.perfetto.enable=true
-iorapd.readahead.enable=true
-
 # Phantom process monitoring
 sys.fflag.override.settings_enable_monitor_phantom_procs=false
