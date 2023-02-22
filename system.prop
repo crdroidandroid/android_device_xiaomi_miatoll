@@ -1,6 +1,9 @@
 # Audio
 audio.offload.min.duration.secs=30
 
+# Camera
+vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera
+
 # Charger
 ro.charger.enable_suspend=true
 
