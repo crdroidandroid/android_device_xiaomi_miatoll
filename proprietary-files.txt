@@ -84,12 +84,6 @@ vendor/lib/libqtigef.so
 vendor/lib/libssrec.so
 vendor/lib/libsurround_3mic_proc.so
 
-# Audio configs
-vendor/etc/audio_io_policy.conf
-vendor/etc/audio_platform_info_intcodec.xml
-vendor/etc/audio_policy_volumes.xml
-vendor/etc/mixer_paths_wcd937x.xml
-
 # Audio FX modules
 vendor/lib/soundfx/libasphere.so
 vendor/lib/soundfx/libshoebox.so
