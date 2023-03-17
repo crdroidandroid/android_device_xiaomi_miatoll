@@ -19,7 +19,7 @@ arm64.memtag.process.system_server=off
 debug.hwui.skia_atrace_enabled=false
 
 # Display
-debug.sf.enable_hwc_vds=0
+debug.sf.enable_hwc_vds=1
 
 # DPM
 persist.vendor.dpm.feature=11
