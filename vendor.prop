@@ -162,6 +162,9 @@ vendor.display.svi.config_path=/vendor/etc/SVIConfig.xml
 # DRM
 drm.service.enabled=true
 
+# FM
+vendor.hw.fm.init=0
+
 # FRP
 ro.frp.pst=/dev/block/bootdevice/by-name/frp
 
