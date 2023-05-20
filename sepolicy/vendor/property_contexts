@@ -12,6 +12,9 @@ ro.hardware.fp                          u:object_r:vendor_fingerprint_prop:s0
 vendor.fps_hal.                         u:object_r:vendor_fingerprint_prop:s0
 vendor.sys.fp                           u:object_r:vendor_fingerprint_prop:s0
 
+# FM
+ro.vendor.fm.use_audio_session	        u:object_r:exported_system_prop:s0
+
 # Power
 vendor.powerhal.state                   u:object_r:vendor_power_prop:s0
 vendor.powerhal.audio                   u:object_r:vendor_power_prop:s0
