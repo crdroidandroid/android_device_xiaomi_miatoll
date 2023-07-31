@@ -248,6 +248,10 @@ on boot
     mkdir /persist/display 0770 system graphics
     mkdir /mnt/vendor/persist/display 0770 system graphics
 
+    # Power supply
+    chmod 0660 /sys/class/power_supply/battery/input_suspend
+    chown system system /sys/class/power_supply/battery/input_suspend
+
     # Enable qcrild and data services on boot so process starts in main
     enable vendor.qcrild
     enable vendor.qcrild2
