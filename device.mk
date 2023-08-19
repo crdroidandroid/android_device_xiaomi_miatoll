@@ -260,6 +260,7 @@ PRODUCT_PACKAGES += \
 
 # NFC
 PRODUCT_PACKAGES += \
+    com.android.nfc_extras \
     Tag
 
 PRODUCT_PACKAGES += \
