@@ -8,18 +8,6 @@ dontaudit hal_bootctl_default gsi_metadata_file:dir search;
 dontaudit { gmscore_app hal_camera_default } property_type:file r_file_perms;
 
 dontaudit {
-  bootanim
-  hal_graphics_allocator_default
-  hal_sensors_default
-  platform_app
-  system_app
-  surfaceflinger
-  untrusted_app_29
-  vendor_init-qti-dcvs-sh
-  vendor_sensors
-} sysfs_msm_subsys:dir search;
-
-dontaudit {
   hal_audio_default
   vendor_hal_neuralnetworks_default
   vendor_qti_init_shell
