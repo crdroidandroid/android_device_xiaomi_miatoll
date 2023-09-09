@@ -55,6 +55,9 @@ fi
 
 function blob_fixup() {
     case "${1}" in
+	    vendor/etc/libnfc-nci.conf)
+            sed -i "s/\/data\/nfc/\/data\/vendor\/nfc/g" "${2}"
+            ;;
         vendor/etc/camera/camxoverridesettings.txt)
             sed -i "s/0x10082/0/g" "${2}"
             sed -i "s/0x1F/0x0/g" "${2}"
