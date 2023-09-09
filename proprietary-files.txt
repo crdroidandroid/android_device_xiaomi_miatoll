@@ -1,6 +1,6 @@
-# Unpinned blobs from V13.0.4.0.SJZMIXM (JOYEUSEGlobal)
-# curtana: V12.5.5.0.RJWMIXM (CURTANAGlobal)
-# excalibur: V12.5.6.0.RJXINXM (EXCALIBURINGlobal)
+# Unpinned blobs from V14.0.3.0.SJZMIXM (JOYEUSEGlobal)
+# curtana: V14.0.4.0.SJWMIXM (CURTANAGlobal)
+# excalibur: V14.0.2.0.SJXINXM (EXCALIBURINGlobal)
 
 # ACDB
 vendor/etc/acdbdata/IDP/atoll-wcd937x-snd-card/IDP_WCD937X_Bluetooth_cal.acdb
@@ -341,15 +341,18 @@ vendor/lib64/camera/fdconfigpreviewlite.bin
 vendor/lib64/camera/fdconfigvideo.bin
 vendor/lib64/camera/fdconfigvideolite.bin
 
+# Camera sensors (curtana) - from curtana
+vendor/lib64/camera/com.qti.tuned.sunny_s5kgm2.bin|f321e09aef6019ffce7397a808235ecea39cea29
+
 # Camera sensors (curtana & gram) - from curtana
 vendor/lib64/camera/com.qti.sensormodule.ofilm_gc02m1_filter.bin|4687d1d2eb8d36b5bed2ceafb197ef21d22bd97e
 vendor/lib64/camera/com.qti.sensormodule.ofilm_s5kgm2.bin|5ebb58c43e95d598f35a0808a0497f51affdcbd6
 vendor/lib64/camera/com.qti.sensormodule.sunny_imx582.bin|0b0d77edf59fe95073c16ed8698a00e7b5a5ed3c
 vendor/lib64/camera/com.qti.sensormodule.sunny_s5kgm2.bin|c92b87076645f2049507211ac09c99a0e54119d3
-vendor/lib64/camera/com.qti.tuned.ofilm_gc02m1.bin|fdcb7bcb026f889b002d0b2b787053c161e54064
-vendor/lib64/camera/com.qti.tuned.ofilm_gc02m1_filter.bin|fdcb7bcb026f889b002d0b2b787053c161e54064
-vendor/lib64/camera/com.qti.tuned.ofilm_s5kgm2.bin|8b15943a79f9d82d7ceb6055da2700b89bb29b7d
-vendor/lib64/camera/com.qti.tuned.sunny_imx582.bin|a43b96a3d4b361a388c89fba46cdf0409d33da17
+vendor/lib64/camera/com.qti.tuned.ofilm_gc02m1.bin|927226cb05dafdfec698cdca7c6309db32615f21
+vendor/lib64/camera/com.qti.tuned.ofilm_gc02m1_filter.bin|927226cb05dafdfec698cdca7c6309db32615f21
+vendor/lib64/camera/com.qti.tuned.ofilm_s5kgm2.bin|1fde3bcf11e58f75d1412136689f1641066b726e
+vendor/lib64/camera/com.qti.tuned.sunny_imx582.bin|ebf967f5d8efe514446415c4560075d67fda1be7
 
 # Camera sensors (curtana & joyeuse)
 vendor/lib64/camera/com.qti.sensormodule.sunny_hi556.bin
@@ -365,7 +368,7 @@ vendor/lib64/camera/com.qti.tuned.sunny_s5kgw1.bin
 
 # Camera sensors (excalibur) - from excalibur
 vendor/lib64/camera/com.qti.sensormodule.sunny_ov32a1q.bin|a6f8e2da547f15d315412f81c58d4ba6888641d5
-vendor/lib64/camera/com.qti.tuned.sunny_ov32a1q.bin|ea825eadeacdc02debdf1b6406706bf695e11bc0
+vendor/lib64/camera/com.qti.tuned.sunny_ov32a1q.bin|832fb5849953dd173de82589fbadddeb0eae6e7a
 
 # Camera sensors (joyeuse)
 vendor/lib64/camera/com.qti.tuned.ofilm_s5kgw1.bin
@@ -1044,7 +1047,10 @@ vendor/radio/qcril_database/upgrade/65_version_update_ecc_table.sql
 vendor/radio/qcril_database/upgrade/66_version_update_ecc_table.sql
 vendor/radio/qcril_database/upgrade/67_version_update_ecc_table.sql
 vendor/radio/qcril_database/upgrade/68_version_update_ecc_table.sql
+vendor/radio/qcril_database/upgrade/69_version_update_ecc_table.sql
 vendor/radio/qcril_database/upgrade/6_version_update_ecc_table.sql
+vendor/radio/qcril_database/upgrade/70_version_update_ecc_table.sql
+vendor/radio/qcril_database/upgrade/71_version_update_ecc_table.sql
 vendor/radio/qcril_database/upgrade/7_version_update_ecc_table.sql
 vendor/radio/qcril_database/upgrade/8_version_update_ecc_table.sql
 vendor/radio/qcril_database/upgrade/9_version_update_ecc_table.sql
