@@ -65,6 +65,8 @@ on init
     chown cameraserver cameraserver /dev/cpuset/camera-daemon/tasks
     chmod 0660 /dev/cpuset/camera-daemon/tasks
 
+    restart vendor.thermal-hal
+
 on early-fs
     start vold
 
