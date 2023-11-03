@@ -13,7 +13,7 @@ persist.vendor.cne.feature=1
 arm64.memtag.process.system_server=off
 
 # Display
-debug.sf.enable_hwc_vds=1
+debug.sf.enable_hwc_vds=0
 
 # DPM
 persist.vendor.dpm.feature=11
