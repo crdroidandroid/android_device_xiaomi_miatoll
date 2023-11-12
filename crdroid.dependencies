@@ -13,11 +13,13 @@
   },
   {
     "repository": "crdroidandroid/android_kernel_xiaomi_sm6250",
-    "target_path": "kernel/xiaomi/miatoll"
+    "target_path": "kernel/xiaomi/miatoll",
+    "branch": "14.0"
   },
   {
     "repository": "crdroidandroid/android_vendor_xiaomi_miatoll",
-    "target_path": "vendor/xiaomi/miatoll"
+    "target_path": "vendor/xiaomi/miatoll",
+    "branch": "13.0"
   },
   {
     "repository": "Positron-B/vendor_xiaomi_miuicamera",
