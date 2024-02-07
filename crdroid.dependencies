@@ -20,5 +20,11 @@
     "repository": "crdroidandroid/android_vendor_xiaomi_miatoll",
     "target_path": "vendor/xiaomi/miatoll",
     "branch": "14.0"
+  },
+  {
+    "repository": "popoASM/vendor_xiaomi_miuicamera",
+    "target_path": "vendor/xiaomi/miuicamera",
+    "branch": "main",
+    "remote": "github"
   }
 ]
