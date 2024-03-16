@@ -21,7 +21,6 @@ PRODUCT_PACKAGES += \
     android.hardware.audio.service \
     android.hardware.bluetooth.audio-impl \
     android.hardware.soundtrigger@2.2-impl \
-    android.media.audio.common.types-V1-cpp
 
 PRODUCT_PACKAGES += \
     audio_amplifier.tas2562 \
@@ -508,6 +507,7 @@ PRODUCT_COPY_FILES += \
 
 # WiFi Display
 PRODUCT_PACKAGES += \
+    android.media.audio.common.types-V2-cpp \
     libnl \
     libwfdaac_vendor \
     vendor.qti.hardware.display.config-V5-ndk
