@@ -4,5 +4,3 @@ allow platform_app {
     perfshielder
     ProcessManager
 }:service_manager find;
-
-allow platform_app app_data_file:file execute;
