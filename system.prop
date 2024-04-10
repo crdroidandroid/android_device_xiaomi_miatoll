@@ -1,6 +1,9 @@
 # Audio
 audio.offload.min.duration.secs=30
 
+# Cached app compaction
+persist.device_config.activity_manager.use_compaction=true
+
 # Camera
 ro.miui.notch=1
 vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,org.lineageos.aperture
