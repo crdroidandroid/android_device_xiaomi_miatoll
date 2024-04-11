@@ -225,10 +225,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.1.vendor
 
-# Libshims
-PRODUCT_PACKAGES += \
-    fakelogprint
-
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.light-service.xiaomi
