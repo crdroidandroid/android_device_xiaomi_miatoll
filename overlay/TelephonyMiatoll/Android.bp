@@ -4,6 +4,6 @@
 //
 
 runtime_resource_overlay {
-    name: "TelephonyResCommon",
+    name: "TelephonyMiatoll",
     product_specific: true,
 }

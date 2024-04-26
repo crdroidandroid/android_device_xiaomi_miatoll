@@ -4,6 +4,6 @@
 //
 
 runtime_resource_overlay {
-    name: "SM6250Frameworks",
-    vendor: true,
+    name: "WifiMiatoll",
+    vendor: true
 }
