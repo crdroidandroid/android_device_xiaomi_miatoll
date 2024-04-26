@@ -1,6 +1,3 @@
-# Audio
-/dev/socket/audio_hw_socket                                                   u:object_r:audio_socket:s0
-
 # blkio
 /dev/blkio(/.*)?                                                        u:object_r:blkio:s0
 
