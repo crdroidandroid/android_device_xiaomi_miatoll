@@ -86,6 +86,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.camera.device@1.0.vendor
 
 PRODUCT_PACKAGES += \
+    libcamera_provider_shim \
     libMegviiFacepp-0.5.2 \
     libmegface
 
