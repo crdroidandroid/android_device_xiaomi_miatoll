@@ -421,6 +421,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     TimeKeep
 
+# Update
+PRODUCT_SOONG_NAMESPACES += bootable/deprecated-ota
+
 # USB
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.3-service.dual_role_usb
