@@ -10,9 +10,6 @@ ro.hardware.fp                          u:object_r:vendor_fingerprint_prop:s0
 vendor.fps_hal.                         u:object_r:vendor_fingerprint_prop:s0
 vendor.sys.fp                           u:object_r:vendor_fingerprint_prop:s0
 
-# FM
-ro.vendor.fm.use_audio_session	        u:object_r:exported_system_prop:s0
-
 # Thermal
 vendor.thermal.                         u:object_r:vendor_thermal_prop:s0
 
