@@ -298,6 +298,12 @@ on property:sys.boot_completed=1
     #Reinit lmkd to reconfigure lmkd properties
     setprop lmkd.reinit 1
 
+    # Restart qcrild
+    stop vendor.qcrild
+    stop vendor.qcrild2
+    start vendor.qcrild
+    start vendor.qcrild2
+
 on property:vold.decrypt=trigger_restart_framework
 
 service vendor.qrtr-ns /vendor/bin/qrtr-ns -f
