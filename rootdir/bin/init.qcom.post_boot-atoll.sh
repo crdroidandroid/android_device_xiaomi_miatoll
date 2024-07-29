@@ -216,6 +216,10 @@ echo 4-5     > /dev/cpuset/background/cpus
 echo 2-5     > /dev/cpuset/system-background/cpus
 echo 2-5     > /dev/cpuset/restricted/cpus
 
+# SchedTune value for foreground/top-app
+echo 1 > /dev/stune/foreground/schedtune.prefer_idle
+echo 1 > /dev/stune/top-app/schedtune.prefer_idle
+
 # Turn off scheduler boost at the end
 echo 0 > /proc/sys/kernel/sched_boost
 
