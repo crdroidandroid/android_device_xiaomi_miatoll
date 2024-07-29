@@ -206,6 +206,11 @@ do
 
 done
 
+# SchedTune value for foreground/top-app
+echo 1 > /dev/stune/foreground/schedtune.prefer_idle
+echo 1 > /dev/stune/top-app/schedtune.boost
+echo 1 > /dev/stune/top-app/schedtune.prefer_idle
+
 # Turn off scheduler boost at the end
 echo 0 > /proc/sys/kernel/sched_boost
 
