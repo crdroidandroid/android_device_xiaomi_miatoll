@@ -206,10 +206,6 @@ do
 
 done
 
-# cpuset parameters
-echo 0-5 > /dev/cpuset/background/cpus
-echo 0-5 > /dev/cpuset/system-background/cpus
-
 # Turn off scheduler boost at the end
 echo 0 > /proc/sys/kernel/sched_boost
 

@@ -33,7 +33,12 @@ on early-init
 on init
     write /dev/stune/foreground/schedtune.sched_boost_no_override 1
     write /dev/stune/top-app/schedtune.sched_boost_no_override 1
+    write /dev/stune/schedtune.colocate 0
+    write /dev/stune/background/schedtune.colocate 0
+    write /dev/stune/system-background/schedtune.colocate 0
+    write /dev/stune/foreground/schedtune.colocate 0
     write /dev/stune/top-app/schedtune.colocate 1
+    write /dev/stune/top-app/schedtune.prefer_idle 1
     write /sys/module/qpnp_rtc/parameters/poweron_alarm 1
     wait /dev/block/platform/soc/${ro.boot.bootdevice}
     symlink /dev/block/platform/soc/${ro.boot.bootdevice} /dev/block/bootdevice
@@ -70,6 +75,8 @@ on post-fs-data
     mkdir /data/vendor/nnhal 0700 system system
     mkdir /data/vendor/mac_addr 0771 system system
 
+# For cpusets initialize for Silver Only first and then Silver + Gold
+# Silver Only configuration cannot work with 0-7
 on boot
     chown system system /sys/class/drm/card0-DSI-1/disp_param
     chmod 0664 /sys/class/drm/card0-DSI-1/disp_param
@@ -77,9 +84,17 @@ on boot
     chmod 0664 /sys/class/drm/card0-DSI-1/mipi_reg
     chown system system /sys/class/drm/card0-DSI-1/panel_info
     chmod 0444 /sys/class/drm/card0-DSI-1/panel_info
+
+    write /dev/cpuset/audio-app/cpus 1-2
     chown system system /sys/kernel/hbtp/display_pwr
     start rmt_storage
     start rfs_access
+
+    write /dev/cpuset/top-app/cpus 0-7
+    write /dev/cpuset/foreground/cpus 0-7
+    write /dev/cpuset/restricted/cpus 1-3
+    write /dev/cpuset/background/cpus 1-3
+    write /dev/cpuset/system-background/cpus 1-3
 
     chmod 0666 sys/devices/platform/soc/890000.i2c/i2c-1/1-005a/cali
     chmod 0666 sys/devices/platform/soc/890000.i2c/i2c-1/1-005a/cali_save
