@@ -84,7 +84,7 @@ on boot
     chown system system /sys/class/drm/card0-DSI-1/panel_info
     chmod 0444 /sys/class/drm/card0-DSI-1/panel_info
 
-    write /dev/cpuset/audio-app/cpus 1-2
+    write /dev/cpuset/audio-app/cpus 0-3
     chown system system /sys/kernel/hbtp/display_pwr
     start rmt_storage
     start rfs_access
