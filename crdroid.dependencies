@@ -12,9 +12,16 @@
     "remote": "github"
   },
   {
-    "repository": "crdroidandroid/android_kernel_xiaomi_sm6250",
+    "repository": "c0smic-Lab/vendor_xiaomi_miuicamera",
+    "target_path": "vendor/xiaomi/miuicamera",
+    "branch": "main",
+    "remote": "github"
+  },
+  {
+    "repository": "popoASM/android_kernel_xiaomi_sm6250",
     "target_path": "kernel/xiaomi/sm6250",
-    "branch": "15.0"
+    "branch": "15.0",
+    "remote": "github"
   },
   {
     "repository": "crdroidandroid/android_vendor_xiaomi_miatoll",
