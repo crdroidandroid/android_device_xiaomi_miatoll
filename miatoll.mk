@@ -184,7 +184,8 @@ PRODUCT_PACKAGES += \
     MiatollSettings \
     MiatollSystemUI \
     MiatollTelephony \
-    MiatollWifi
+    MiatollWifi \
+    NcmTetheringOverlay
 
 PRODUCT_PACKAGES += \
     SM6250Aperture \
