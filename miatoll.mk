@@ -135,6 +135,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor.lineage.health-service.default
 
+$(call soong_config_set,lineage_health,charging_control_supports_bypass,false)
+
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.light-service.lineage
