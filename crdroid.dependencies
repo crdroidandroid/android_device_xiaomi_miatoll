@@ -1,0 +1,20 @@
+[
+  {
+    "repository": "LineageOS/android_hardware_sony_timekeep",
+    "target_path": "hardware/sony/timekeep",
+    "branch": "lineage-22.2"
+  },
+  {
+    "repository": "LineageOS/android_hardware_xiaomi",
+    "target_path": "hardware/xiaomi",
+    "branch": "lineage-23.0"
+  },
+  {
+    "repository": "crdroidandroid/proprietary_vendor_xiaomi_miatoll",
+    "target_path": "vendor/xiaomi/miatoll"
+  },
+  {
+    "repository": "crdroidandroid/android_kernel_xiaomi_sm6250",
+    "target_path": "kernel/xiaomi/sm6250"
+  }
+]
