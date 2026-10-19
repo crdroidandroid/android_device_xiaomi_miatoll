@@ -37,3 +37,8 @@ TARGET_INCLUDES_DolbyVision := true
 TARGET_INCLUDES_CUSTOM_VOLUMES := true
 TARGET_INCLUDES_ViperFX := true
 TARGET_INCLUDES_DOLBY := true
+
+# crDroid Flags
+# Face unlock 
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
